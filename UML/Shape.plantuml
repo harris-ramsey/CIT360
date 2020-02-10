@@ -1,0 +1,23 @@
+@startuml
+
+class Shape {
+    -Shape: double { get set }
+
+    +Shape
+}
+
+class Size extends Shape {
+    -width: double { get set }
+    -height: double { get set }
+
+    +getPerimeter(): double
+    +getArea(): double
+}
+
+class Sides extends Shape {
+    -sides: integer { get set }
+
+
+}
+
+@enduml
