@@ -1,11 +1,4 @@
-Use Case Diagrams are meant to be kept simple, and easy to read.
-A quick glance could help somebody understand the basic idea of what
-is supposed to happen.
-
-Below is a PlantUML code to create a sample UML using PlantUML
-in either IntelliJ or VS Code with the added extensions.
-
-@startuml
+@startuml MainClass
 
 class MainClass {
     -firstVariable: double
@@ -24,3 +17,10 @@ class MainClass {
 }
 
 @enduml
+
+Use Case Diagrams are meant to be kept simple, and easy to read.
+A quick glance could help somebody understand the basic idea of what
+is supposed to happen.
+
+Below is a PlantUML code to create a sample UML using PlantUML
+in either IntelliJ or VS Code with the added extensions.
