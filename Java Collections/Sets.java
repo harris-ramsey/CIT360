@@ -9,7 +9,7 @@ public class Sets {
         // Create a set
         Set<String> set1 = new TreeSet<>();
 
-        // Add items to new set
+        // Add items to new set.
         set1.add("This");
         set1.add("is");
         set1.add("my");
