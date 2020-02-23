@@ -15,7 +15,7 @@ public class Queue {
         que1.add(9);
         que1.add(0);
 
-        Iterator itr = que1.iterator();
+        Iterator itr = que1.iterator(); //generic????
         while (itr.hasNext()) {
             System.out.println(itr.next());
         }
