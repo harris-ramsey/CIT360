@@ -26,6 +26,5 @@ public class HttpURL {
         } catch (IOException e) {
             System.out.println("An I/O error occurs: " + e.getMessage());
         }
-
     }
 }
