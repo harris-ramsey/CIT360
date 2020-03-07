@@ -1,4 +1,7 @@
-import java.util.*;
+//import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * Threading class to be used to show Threads
@@ -20,5 +23,14 @@ public class Threading {
         t1.start();
         t2.start();
         t3.start();
+
+        // You can also use an executor class to manage
+        // threads and executing them as well
+        ExecutorService excut = Executors.newCachedThreadPool();
+        ThreadPoolExecutor pool = (ThreadPoolExecutor) excut;
+        System.out.println("size of pool: " + pool.getPoolSize());
+        excut.submit(new Running("Pool-1"));
+        excut.submit(new Running("Pool-2"));
+        excut.shutdown();
     }
 }
