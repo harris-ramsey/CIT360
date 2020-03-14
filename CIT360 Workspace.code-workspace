@@ -11,6 +11,7 @@
 		"java.project.referencedLibraries": [
 			"lib/**/*.jar",
 			"c:\\Program Files\\AdoptOpenJDK\\jdk-11.0.6.10-hotspot\\lib\\json-simple-1.1.jar"
-		]
+		],
+		"java.dependency.packagePresentation": "flat"
 	}
 }
