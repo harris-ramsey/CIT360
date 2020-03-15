@@ -4,14 +4,16 @@
 			"path": "."
 		},
 		{
-			"path": "C:\\Users\\RamZ\\Downloads\\json-simple-1.1.jar"
+			"path": "C:\\Users\\RamZ\\OneDrive\\Documents\\GitHub\\Servlets"
 		}
 	],
 	"settings": {
 		"java.project.referencedLibraries": [
 			"lib/**/*.jar",
-			"c:\\Program Files\\AdoptOpenJDK\\jdk-11.0.6.10-hotspot\\lib\\json-simple-1.1.jar"
+			"c:\\Program Files\\AdoptOpenJDK\\jdk-11.0.6.10-hotspot\\lib\\json-simple-1.1.jar",
+			"c:\\Users\\RamZ\\OneDrive\\Documents\\GitHub\\apache-tomcat-9.0.31-windows-x64\\apache-tomcat-9.0.31\\lib\\servlet-api.jar"
 		],
-		"java.dependency.packagePresentation": "flat"
+		"java.dependency.packagePresentation": "flat",
+		"liveServer.settings.multiRootWorkspaceName": "Servlets"
 	}
 }
