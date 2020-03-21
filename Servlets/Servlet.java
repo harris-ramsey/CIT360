@@ -18,6 +18,7 @@ public class Servlet extends HttpServlet {
         out.println("<p>Password: " + password + "</p>");
         out.println("</body></html>");
     }
+    
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("tetxt/html");
