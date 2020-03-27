@@ -9,9 +9,9 @@ public class TestHibernate {
  
         // Add new Employee object
         EmployeeEntity emp = new EmployeeEntity();
-        emp.setEmail("demo-user9@mail.com");
-        emp.setFirstName("demo9");
-        emp.setLastName("user9");
+        emp.setEmail("demo-user10@mail.com");
+        emp.setFirstName("demo10");
+        emp.setLastName("user10");
  
         session.save(emp);
 
