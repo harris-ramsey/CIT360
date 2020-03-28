@@ -31,6 +31,9 @@ public class Threading {
         System.out.println("size of pool: " + pool.getPoolSize());
         excut.submit(new Running("Pool-1"));
         excut.submit(new Running("Pool-2"));
+        excut.submit(new Running("Pool-3"));
+
+        System.out.println("new size of pool: " + pool.getPoolSize());
         excut.shutdown();
     }
 }
