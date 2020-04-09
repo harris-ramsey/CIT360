@@ -1,0 +1,12 @@
+{
+    "users": [ 2, {
+        "1": {
+            "name": "Ramsey Harris",
+            "email": "demo1@demo.com"
+        },
+        "2": {
+            "name": "Daniel Hansen",
+            "email": "demo2@demo.com"
+        }
+    } ]
+}

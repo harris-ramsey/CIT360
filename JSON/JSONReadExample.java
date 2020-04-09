@@ -23,7 +23,7 @@ public class JSONReadExample
         String firstName = (String) jo.get("firstName"); 
         String lastName = (String) jo.get("lastName"); 
           
-        System.out.println(firstName); 
+        System.out.println(firstName);
         System.out.println(lastName); 
           
         // getting age 

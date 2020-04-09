@@ -7,7 +7,7 @@ public class HttpURL {
         // try and catch for exceptions handling
         try {
             // Set a url as a variabl
-            URL url = new URL("http://amazon.com");
+            URL url = new URL("http://localhost:8080/examples/JSONExample.json");
             // Create and open the connection
             URLConnection connection = url.openConnection();
             // Create the input stream for the reader
