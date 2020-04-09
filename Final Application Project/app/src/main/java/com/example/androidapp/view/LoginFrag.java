@@ -1,0 +1,39 @@
+package com.example.androidapp.view;
+
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
+
+import com.example.androidapp.R;
+
+
+public class LoginFrag extends Fragment {
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        super.onCreateView(inflater, container, savedInstanceState);
+        View view = inflater.inflate(R.layout.login, container,false);
+        Button login = view.findViewById(R.id.loginButton);
+        login.setOnClickListener(new MainMenu());
+        return view;
+    }
+
+    public class MainMenu implements View.OnClickListener {
+
+        @Override
+        public void onClick(View v) {
+
+            FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragCont, new MenuFrag());
+            fragmentTransaction.addToBackStack(null);
+            fragmentTransaction.commit();
+        }
+    }
+}

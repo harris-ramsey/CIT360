@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AndroidApp</string>
+    <string name="input_title">User Information Input</string>
+    <string name="menu_select">Select a Menu Option</string>
+    <string name="add_users">Add New User</string>
+    <string name="view_users">View User List</string>
+    <string name="user_name">Username</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_addy">Email Address</string>
+    <string name="phone_num">Phone Number</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="login_submit">Login</string>
+    <string name="pass_word">Password</string>
+    <string name="submit_user">Submit User</string>
+    <string name="show_users">Show Users</string>
+</resources>
